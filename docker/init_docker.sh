@@ -1,8 +1,6 @@
 #!/bin/bash
 yum install -y deltarpm
 yum install -y update
-reboot
-sleep 60
 
 yum install -y docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
